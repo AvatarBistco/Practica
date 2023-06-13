@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="/uslugi.css">
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <!-- Background & animion & navbar & title -->
+      <div class="container-fluid">
+    <!-- Background animtion-->
+        <div class="background">
+           <div class="cube"></div>
+           <div class="cube"></div>
+           <div class="cube"></div>
+           <div class="cube"></div>
+          <div class="cube"></div>
+        </div>
+    <!-- header -->
+       <header>
+    <!-- navbar -->
+         <nav>
+            <ul>
+               <li><a href="index.html">Главная</a></li>
+                <li><a href="about-us.html">О нас</a></li>
+                <li><a href="/schedule.php">Расписание занятий</a></li>
+                <li><a href="/profile.php">Профиль</a></li>
+              
+                <li><a href="#">Контакты</a></li>
+             </ul>
+           </nav>
+           <div class="logo"><span>N</span></div>
+
+
+
+
+<div class="uslugi">
+    <h1>Услуги школы IT</h1>
+           <ul>
+            <div class="a1">
+             <li><a href="/formstud.html">Основы программирования - 10 000  руб.</a></li>   
+            </div>
+            
+               <div class="a2">
+                  <li><a href="/formstud.html">Веб-разработка - 12 000 руб.</a> </li>
+               </div>
+
+             <div class="a3">
+                        <li><a href="/formstud.html">Мобильная разработка - 15 000 руб.</a> </li>
+             </div>
+
+       <div class="a4">
+        <li><a href="/formstud.html">Data Science - 18 000 руб.</a> </li>
+       </div>
+               <div class="a5">
+                <li><a href="/formstud.html">Искусственный интеллект - 20 000 руб.</a> </li>
+               </div>
+
+               <div class="a6">
+                 <li><a href="/formstud.html"> Кибербезопасность - 16 000 руб.</a></li>
+               </div>
+               
+               <div class="a7">
+                 <li><a href="/formstud.html  "> Сетевые технологии - 14 000 руб.</a></li>
+               </div>
+              
+              
+           </ul>
+
+</div>
+
+<style>
+
+  /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    border-radius: 5px;
+    background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 10px;
+}
+
+</style>
+        <h1>Калькулятор цен на обучение</h1>
+<div class="calculator">
+ 
+  <label for="teacher">Преподаватель:</label>
+  <select id="teacher">
+      <option value="500">Высшей категории (500 руб/час)</option>
+      <option value="200">Первой категории (200 руб/час)</option>
+  </select>
+  <br>
+  <label for="course">Курс:</label>
+  <select id="course">
+      <option value="0.5">Для школьников (0.5)</option>
+      <option value="0.7">Для студентов (0.7)</option>
+      <option value="2">Для работающих граждан (2)</option>
+      <option value="1">Для пенсионеров (1)</option>
+  </select>
+  <br>
+  <label for="city">Город:</label>
+  <select id="city">
+      <option value="3">Москва (3)</option>
+      <option value="2">Санкт-Петербург (2)</option>
+      <option value="0.8">Казань (0.8)</option>
+      <option value="0.7">Брянск (0.7)</option>
+      <option value="0.6">Екатеринбург (0.6)</option>
+      <option value="1">Смоленск (1)</option>
+      <option value="1.5">Владивосток (1.5)</option>
+  </select>
+  <br>
+  <label for="intensity">Интенсивность:</label>
+  <select id="intensity">
+      <option value="72">72 часа</option>
+      <option value="144">144 часа</option>
+      <option value="288">288 часов</option>
+  </select>
+  <br>
+  <button id="calculate">Рассчитать стоимость</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</div>
+
+
+</header>
+<footer>
+    &copy; IT Школа, 2023. Все права защищены.
+</footer>
+           
+</body>
+</html>
